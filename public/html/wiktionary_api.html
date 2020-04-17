@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="../libraries/p5.js"></script>
+    <!-- <script src="./libraries/p5.dom.js"></script>
+    <script src="./libraries/p5.sound.js"></script>
+    <script src="./p5.speech.js"></script> -->
+
+    <script src="../js/getMenu.js"></script>
+    <script src="../js/sketch_wiktionary.js"></script>
+
+    <link rel="stylesheet" href="../css/styles.css">
+
+</head>
+<body>
+    <div style="padding-left:16px">
+        <!-- Top navigation menu placeholder -->
+        <div id="topMenu"></div>
+        <!-- Top navigation menu -->
+        <script> getMenu();</script>
+
+        <h2>Retrieving stuff from fr.wiktionary</h2>
+        <p>
+            word: <input type="text" id="userinput"></input>
+            <input type="button" id="submit" value="Submit"></button>
+        </p> 
+    </div>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="../libraries/p5.js"></script>
+    <script src="../libraries/p5.dom.js"></script>
+    <script src="../libraries/p5.sound.js"></script>
+    <script src="../libraries/p5.speech.js"></script>
+
+    <script src="../js/getMenu.js"></script>
+    <script src="../js/sketch_t2s.js"></script>
+
+    <link rel="stylesheet" href="../css/styles.css">
+
+</head>
+<body>
+
+    <div style="padding-left:16px">
+        <!-- Top navigation menu placeholder -->
+        <div id="topMenu"></div>
+        <!-- Top navigation menu -->
+        <script> getMenu();</script>
+
+    
+        <h1>Speech stuff happening here!</h1>
+        
+        <form id="frm1">
+
+            <p> text field:</p>
+            <input id="textFR" type="text" name="textFR"><br>
+            <p>Custom range slider:</p>
+            <input type="range" min="0" max="200" value="100" class="slider" id="myRange"><br>
+
+            <!-- Div to display rate of speech -->
+            <div id="sliderValue"></div><br>
+            <input type="button" onclick="sayIt()" value="Ecoutez">
+        </form>
+    </div>
+</body>
+</html>

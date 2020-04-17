@@ -1,0 +1,21 @@
+{
+  "name": "speech_recognition",
+  "version": "1.0.0",
+  "description": "testing client side p5.Speech speech recognition library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "speech",
+    "recognition",
+    "p5"
+  ],
+  "author": "Jerome Richalot based on Daniel Shiffman's example (The Coding Train, Programming with Text series, 10.4)",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "linguee": "^1.0.1",
+    "nlp-js-tools-french": "^1.0.9"
+  }
+}
